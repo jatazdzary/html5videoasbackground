@@ -1,0 +1,63 @@
+﻿body{
+	margin:0;
+	padding:0;
+}
+
+.header-unit {
+  height: 100%;
+  border: 2px solid #000;
+  border-right:none;
+  border-left: none;
+  position: relative;
+  padding: 20px;
+}
+#video-container {
+	position: absolute;
+}
+#video-container {
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+}
+video {
+	position:absolute;
+	z-index:0;
+}
+video.fillWidth {
+	width: 100%;
+	
+}
+
+.menu{
+	z-index:10;
+	position:absolute;
+	clear:both;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+.schowaneprofil{
+	z-index:20;
+	position:absolute;
+	clear:both;
+	margin-left:45px;
+	margin-top:-25px;
+}
+
+.schowanelista{
+	z-index:30;
+	position:absolute;
+	clear:both;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+.schowaneulubione{
+	z-index:40;
+	position:absolute;
+	clear:both;
+	margin-left:45px;
+	margin-top:25px;
+}
